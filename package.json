@@ -1,0 +1,24 @@
+{
+  "name": "garrett-ordner-website",
+  "version": "1.0.0",
+  "description": "A full, from-scratch rebuild of my personal website",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garrett-ordner/garrett-ordner-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garrett-ordner/garrett-ordner-website/issues"
+  },
+  "homepage": "https://github.com/garrett-ordner/garrett-ordner-website#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6"
+  }
+}
